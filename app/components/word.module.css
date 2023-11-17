@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 0;
+  border: 1px solid rgba(179, 179, 179, 0.622);
+
+  .word {
+    color: cornflowerblue;
+    font-weight: 600;
+    font-size: 1.4em;
+  }
+
+  .subContainer {
+    font-size: 0.9em;
+    padding-top: 3px;
+    .label {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 0.9em;
+      color: #444;
+      padding-right: 5px;
+      text-transform: none;
+    }
+    .type {
+      display: inline-block;
+      text-transform: uppercase;
+      width: 33.33%;
+      color: rgb(212, 10, 10);
+    }
+    .syllables {
+      display: inline-block;
+      width: 33.33%;
+      color: rgb(210, 141, 12);
+    }
+    .sounds {
+      display: inline-block;
+      width: 33.33%;
+      color: green;
+    }
+  }
+}

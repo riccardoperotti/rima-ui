@@ -1,0 +1,14 @@
+
+.form {
+    font-size: 0.85rem;
+    .label {
+       font-weight:bold;
+    }
+    .input {
+        padding:3px 8px;
+        margin: 0 5px;
+    }
+    .button {
+        padding:3px 8px;
+    }
+}

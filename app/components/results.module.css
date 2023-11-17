@@ -1,0 +1,32 @@
+.controlPanel {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  grid-template-columns: repeat(3, minmax(33.3%, auto));
+  border: 0px solid red;
+}
+
+.results {
+  padding-top:30px;
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  grid-template-columns: repeat(5, minmax(20%, auto));
+  max-width: 100%;
+  width: var(--max-width);
+
+  .res {
+    padding:5px 0;
+    font-size: 0.9em;
+  }
+  .res:hover {
+    color:grey;
+  }
+}
+
+.noResults {
+  margin:50px auto;
+  text-align: center;
+  color:grey;
+  font-size:1.1em;
+}
